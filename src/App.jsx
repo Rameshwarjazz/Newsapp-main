@@ -8,8 +8,9 @@ const App = () => {
 
   return (
     <div>
-      <AuthenticationComponent />
+      
       <Navbar setCategory={setCategory} />
+      <AuthenticationComponent />
       <NewsBoard category={category} />
     </div>
   );
